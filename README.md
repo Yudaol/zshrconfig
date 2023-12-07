@@ -6,7 +6,9 @@ my .zshrc config to have the terminal like kali linux
 
 # mac with port (macport, you can download at https://www.macports.org/install.php)
 
-`sudo port install zsh zsh-syntax-highlighting zsh-autosuggestions`
+```
+sudo port install zsh zsh-syntax-highlighting zsh-autosuggestions
+```
 
 now press tape in the terminal `zsh`
 
@@ -14,51 +16,77 @@ you will have a text message with 3 option press `0`
 
 next you will need to delete the .zshrc file for create a new one
 
-`rm .zshrc`
+```
+rm .zshrc
+```
 
-then copy the zshrc I make and past it into your personnal folder /Users/...
+then copy the zshrc I make and past it into your personnal folder `/Users/...`
 
 then we need to rename the zshrc into .zshrc
 
-`cp zshrc .zshrc`
+```
+cp zshrc .zshrc
+```
 
 then you can change the default login shell :
 
-`chsh -s /bin/zsh`
+```
+chsh -s /bin/zsh
+```
 
 then change the default terminal look :
 
-`source .zshrc`
+```
+source .zshrc
+```
 
-If you have message : last login ...
+If you have message : `last login ...`
 
 you can tape :
 
-`touch .hushlogin`
+```
+touch .hushlogin
+```
 
 # Linux (ubuntu,...)
 
-`sudo apt update`
+```
+sudo apt update
+```
 
-`sudo apt upgrade`
+```
+sudo apt upgrade
+```
 
-`sudo apt install zsh`
+```
+sudo apt install zsh
+```
 
-`zsh`
+```
+zsh
+```
 
 press `0`
 
-`sudo apt install zsh-syntax-highlighting zsh-autosuggestions`
+```
+sudo apt install zsh-syntax-highlighting zsh-autosuggestions
+```
 
-`chsh -s /bin/zsh`
+```
+chsh -s /bin/zsh
+```
 
 copy the zshrc in your folder and rename it
 
 rename :
 
-`cp zshrc .zshrc`
+```
+cp zshrc .zshrc
+```
 
-`source .zshrc`
+```
+source .zshrc
+```
 
 
 
